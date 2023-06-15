@@ -1,0 +1,48 @@
+body {
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    display: flex;
+}
+
+.container--horizontal {
+    flex-direction: row;
+}
+
+.container--vertical {
+    flex-direction: column;
+}
+
+.container--center{
+    align-items: center;
+}
+
+.bg--orange {     
+    background-color: #ffbf69;
+}
+
+.bg--pastel-blue {
+    background-color: #cbf3f0;
+}
+
+.text--big {
+    font-size: 50px;
+}
+
+.text-medium {
+    font-size: 25px;
+}
+
+.text-small {
+    font-size: 15px;
+}
+
+.text--arial-black {
+    font-family: 'Arial Black';
+}
+
+.text--white {
+    color: white;
+}
